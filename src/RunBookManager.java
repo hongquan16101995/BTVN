@@ -9,6 +9,7 @@ public class RunBookManager {
     ArrayList<Book> bookList = new ArrayList<>();
 
     public void searchByLinear() {
+        bookManager.setBookList(programmingBookList,fictionBookList,bookList);
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a book name: ");
         String name = sc.nextLine();
@@ -20,6 +21,7 @@ public class RunBookManager {
     }
 
     public void searchByBinary() {
+        bookManager.setBookList(programmingBookList,fictionBookList,bookList);
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a book name: ");
         String name = sc.nextLine();
@@ -39,22 +41,27 @@ public class RunBookManager {
     }
 
     public void getTotalPrice(){
+        bookManager.setBookList(programmingBookList,fictionBookList,bookList);
         bookManager.getTotalPrice(bookList);
     }
 
     public void checkLanguage(){
+        bookManager.setBookList(programmingBookList,fictionBookList,bookList);
         bookManager.checkLanguage(programmingBookList);
     }
 
     public void sortByChoice(){
+        bookManager.setBookList(programmingBookList,fictionBookList,bookList);
         bookManager.sortByChoice(bookList);
     }
 
     public void sortByInsert(){
+        bookManager.setBookList(programmingBookList,fictionBookList,bookList);
         bookManager.sortByInsert(bookList);
     }
 
     public void sortByBubble(){
+        bookManager.setBookList(programmingBookList,fictionBookList,bookList);
         bookManager.sortByBubble(bookList);
     }
 }
