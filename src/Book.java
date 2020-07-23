@@ -49,7 +49,7 @@ public class Book {
 
     @Override
     public String toString() {
-        return "Book{" + "bookCode=" + bookCode + ", name='" + name + '\'' +
-                ", price=" + price + ", author='" + author + '\'' + '}';
+        return "Book {" + " bookCode = " + bookCode + ", name = '" + name + '\'' +
+                ", price = " + price + ", author = '" + author + '\'' + '}';
     }
 }

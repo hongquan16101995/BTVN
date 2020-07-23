@@ -24,6 +24,6 @@ public class FictionBook extends Book {
 
     @Override
     public String toString() {
-        return "FictionBook{" + super.toString() + "category='" + category + '\'' + '}';
+        return "FictionBook { " + super.toString() + " category = '" + category + '\'' + '}';
     }
 }
