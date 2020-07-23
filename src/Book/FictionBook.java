@@ -1,3 +1,5 @@
+package Book;
+
 public class FictionBook extends Book {
     private String category;
 
@@ -24,6 +26,6 @@ public class FictionBook extends Book {
 
     @Override
     public String toString() {
-        return "FictionBook { " + super.toString() + " category = '" + category + '\'' + '}';
+        return "Book.FictionBook { " + super.toString() + " category = '" + category + '\'' + '}';
     }
 }

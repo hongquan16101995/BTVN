@@ -1,3 +1,7 @@
+package Run;
+
+import Book.RunBookManager;
+
 import java.util.Scanner;
 
 public class RunLastByUser {
@@ -12,9 +16,9 @@ public class RunLastByUser {
             System.out.println("4. Check language of ProgrammingBookList");
             System.out.println("5. Search price by name by linear");
             System.out.println("6. Search price by name by binary");
-            System.out.println("7. Book list sort by Choice");
-            System.out.println("8. Book list sort by Insert");
-            System.out.println("9. Book list sort by Bubble");
+            System.out.println("7. Book.Book list sort by Choice");
+            System.out.println("8. Book.Book list sort by Insert");
+            System.out.println("9. Book.Book list sort by Bubble");
             System.out.println("0. Exit");
             Scanner sc = new Scanner(System.in);
             System.out.println("Enter your choice: ");

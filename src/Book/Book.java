@@ -1,3 +1,5 @@
+package Book;
+
 public class Book {
     private int bookCode;
     private String name;
@@ -49,7 +51,7 @@ public class Book {
 
     @Override
     public String toString() {
-        return "Book {" + " bookCode = " + bookCode + ", name = '" + name + '\'' +
+        return "Book.Book {" + " bookCode = " + bookCode + ", name = '" + name + '\'' +
                 ", price = " + price + ", author = '" + author + '\'' + '}';
     }
 }

@@ -1,3 +1,6 @@
+package Run;
+
+import Book.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -36,8 +39,8 @@ public class Demo {
 
 
         ArrayList<Book> arrayListChoice = bookManager.sortByChoice(bookList);
-//        ArrayList<Book> arrayListInsert = bookManager.sortByInsert(bookList);
-//        ArrayList<Book> arrayListBubble = bookManager.sortByBubble(bookList);
+//        ArrayList<Book.Book> arrayListInsert = bookManager.sortByInsert(bookList);
+//        ArrayList<Book.Book> arrayListBubble = bookManager.sortByBubble(bookList);
         System.out.println("Array sorted: ");
         for (Book book : bookList) {
             System.out.println(book);
